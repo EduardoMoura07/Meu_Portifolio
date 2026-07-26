@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Portfólio profissional de Eduardo Moura, Bacharel em Ciência da Computação, com experiência em suporte técnico, tecnologia, análise de dados e desenvolvimento.">
+
+    <meta name="author" content="Eduardo Moura">
+
+    <title>Eduardo Moura | Portfólio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header>
+
+        <div class="logo">
+            Eduardo Moura
+        </div>
+
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#skills">Tecnologias</a>
+            <a href="#certificados">Certificados</a>
+            <a href="#curriculo">Currículo</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero">
+
+        <div>
+
+            <h1>
+                Olá, eu sou
+                <span>Eduardo Moura</span>
+            </h1>
+
+            <p>
+                Bacharel em Ciência da Computação, apaixonado por tecnologia,
+                suporte técnico, desenvolvimento de sistemas,
+                análise de dados e soluções digitais.
+            </p>
+
+            <button class="btn" id="abrirContato">
+                Entrar em contato
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SOBRE
+    ========================== -->
+    <section id="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <div class="sobre">
+
+            <div class="foto">
+                👨‍💻
+            </div>
+
+            <div>
+
+                <p>
+                    Meu nome é Eduardo Moura. Sou Bacharel em Ciência da
+                    Computação, com experiência em suporte técnico,
+                    manutenção de computadores, sistemas, redes,
+                    atendimento ao cliente e análise de dados.
+                </p>
+
+                <p>
+                    Tenho perfil analítico, proativo e focado na resolução
+                    de problemas. Busco oportunidades para aplicar meus
+                    conhecimentos em tecnologia e contribuir para o
+                    crescimento das empresas.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         TECNOLOGIAS
+    ========================== -->
+    <section id="skills">
+
+        <h2>Tecnologias e Habilidades</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+                <h3>HTML</h3>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill">
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill">
+                <h3>Git</h3>
+            </div>
+
+            <div class="skill">
+                <h3>GitHub</h3>
+            </div>
+
+            <div class="skill">
+                <h3>SQL</h3>
+            </div>
+
+            <div class="skill">
+                <h3>Windows</h3>
+            </div>
+
+            <div class="skill">
+                <h3>Power BI</h3>
+            </div>
+
+            <div class="skill">
+                <h3>Microsoft Office</h3>
+            </div>
+
+            <div class="skill">
+                <h3>Suporte Técnico</h3>
+            </div>
+
+            <div class="skill">
+                <h3>Manutenção de Computadores</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CERTIFICADOS
+    ========================== -->
+    <section id="certificados">
+
+        <h2>Certificados</h2>
+
+        <div class="cards">
+
+            <!-- Excel -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="imagens/Excel.jpg"
+                        alt="Certificado Excel"
+                        onclick="abrirCertificado(
+                            'imagens/Excel.jpg',
+                            'Certificado Excel'
+                        )">
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Certificado Excel</h3>
+
+                    <p>
+                        Certificado de conclusão do curso de Excel.
+                    </p>
+
+                    <button
+                        class="btn-ver"
+                        onclick="abrirCertificado(
+                            'imagens/Excel.jpg',
+                            'Certificado Excel'
+                        )">
+
+                        <i class="fas fa-eye"></i>
+                        Ver Certificado
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Ciência de Dados -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="imagens/introducaoCD.png"
+                        alt="Certificado Introdução à Ciência de Dados"
+                        onclick="abrirCertificado(
+                            'imagens/introducaoCD.png',
+                            'Introdução à Ciência de Dados'
+                        )">
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Introdução à Ciência de Dados</h3>
+
+                    <p>
+                        Certificado de conclusão do curso de
+                        Introdução à Ciência de Dados.
+                    </p>
+
+                    <button
+                        class="btn-ver"
+                        onclick="abrirCertificado(
+                            'imagens/introducaoCD.png',
+                            'Introdução à Ciência de Dados'
+                        )">
+
+                        <i class="fas fa-eye"></i>
+                        Ver Certificado
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Power BI -->
+            <div class="card">
+
+                <div class="card-image">
+
+                    <img
+                        src="imagens/PWBI.jpg"
+                        alt="Certificado Power BI"
+                        onclick="abrirCertificado(
+                            'imagens/PWBI.jpg',
+                            'Certificado Power BI'
+                        )">
+
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Certificado Power BI</h3>
+
+                    <p>
+                        Certificado de conclusão do curso de
+                        Power BI Intermediário,
+                        Análise e Modelagem de Dados.
+                    </p>
+
+                    <button
+                        class="btn-ver"
+                        onclick="abrirCertificado(
+                            'imagens/PWBI.jpg',
+                            'Certificado Power BI'
+                        )">
+
+                        <i class="fas fa-eye"></i>
+                        Ver Certificado
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CURRÍCULO
+    ========================== -->
+    <section id="curriculo">
+
+        <h2>Currículo</h2>
+
+        <div class="curriculo">
+
+            <p>
+                Conheça minha trajetória profissional e acadêmica.
+                Você pode visualizar ou baixar meu currículo em PDF.
+            </p>
+
+            <div
+                style="
+                    display: flex;
+                    gap: 15px;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                "
+            >
+
+                <a
+                    href="curriculo.pdf"
+                    class="btn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    👁️ Visualizar Currículo
+                </a>
+
+                <a
+                    href="curriculo.pdf"
+                    class="btn"
+                    download
+                >
+                    📄 Baixar Currículo
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJETOS
+    ========================== -->
+    <section id="projetos">
+
+        <h2>Projetos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="card-image">
+                    <i class="fas fa-code"></i>
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Portfólio Profissional</h3>
+
+                    <p>
+                        Desenvolvimento de portfólio profissional
+                        utilizando HTML, CSS e JavaScript.
+                    </p>
+
+                    <a
+                        href="https://github.com/EduardoMoura07/Meu_Portifolio"
+                        class="btn-ver"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Ver Projeto
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-image">
+                    <i class="fas fa-database"></i>
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Análise de Dados</h3>
+
+                    <p>
+                        Projetos envolvendo análise de dados,
+                        Power BI, Excel e SQL.
+                    </p>
+
+                    <a
+                        href="#contato"
+                        class="btn-ver"
+                    >
+                        Saiba Mais
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-image">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+
+                <div class="card-content">
+
+                    <h3>Desenvolvimento de Sistemas</h3>
+
+                    <p>
+                        Projetos acadêmicos e pessoais voltados
+                        ao desenvolvimento de soluções digitais.
+                    </p>
+
+                    <a
+                        href="#contato"
+                        class="btn-ver"
+                    >
+                        Saiba Mais
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTATO
+    ========================== -->
+    <section id="contato">
+
+        <h2>Contato</h2>
+
+        <div class="curriculo">
+
+            <p>
+                <strong>E-mail:</strong>
+                eduardo.pinheiro1807@gmail.com
+            </p>
+
+            <p>
+                <strong>Telefone:</strong>
+                (86) 98826-2673
+            </p>
+
+            <div class="redes">
+
+                <a
+                    href="https://github.com/EduardoMoura07"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/eduardo-moura-979138160"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+                <a
+                    href="https://www.instagram.com/eduardo_moura18"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer>
+
+        © 2026 Eduardo Moura
+        • Desenvolvido com HTML, CSS e JavaScript
+
+    </footer>
+
+
+    <!-- =========================
+         MODAL DE CONTATO
+    ========================== -->
+    <div
+        id="modalContato"
+        class="modal"
+    >
+
+        <div class="modal-content">
+
+            <span class="fechar">
+                &times;
+            </span>
+
+            <h2>
+                Como deseja entrar em contato?
+            </h2>
+
+            <div class="opcoes">
+
+                <a
+                    href="https://wa.me/5586988262673"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-whatsapp"
+                >
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+
+                <a
+                    href="mailto:eduardo.pinheiro1807@gmail.com"
+                    class="btn-email"
+                >
+                    <i class="fa-solid fa-envelope"></i>
+                    E-mail
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         MODAL DE CERTIFICADO
+    ========================== -->
+    <div
+        id="modalCertificado"
+        class="modal-certificado"
+    >
+
+        <div class="modal-certificado-content">
+
+            <span class="fechar-certificado">
+                &times;
+            </span>
+
+            <h3 id="tituloCertificado">
+                Certificado
+            </h3>
+
+            <img
+                id="imagemCertificado"
+                src=""
+                alt="Certificado"
+            >
+
+            <div class="botoes-certificado">
+
+                <button
+                    onclick="baixarCertificado()"
+                    class="btn-download-cert"
+                >
+                    <i class="fas fa-download"></i>
+                    Baixar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
